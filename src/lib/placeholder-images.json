@@ -1,0 +1,166 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Abstract mountains overlay",
+      "imageUrl": "https://images.unsplash.com/photo-1624396963238-df0e48367ff7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMG1vdW50YWluc3xlbnwwfHx8fDE3NTg4MTk1Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract mountains"
+    },
+    {
+      "id": "about-us-image",
+      "description": "Diverse group of students collaborating",
+      "imageUrl": "https://images.unsplash.com/photo-1758270704787-615782711641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdHVkZW50cyUyMGNvbGxhYm9yYXRpb258ZW58MHx8fHwxNzU4ODE5NTc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "students collaboration"
+    },
+    {
+      "id": "team-gauri-gaur",
+      "description": "Photo of Gauri Gaur",
+      "imageUrl": "https://images.unsplash.com/photo-1629425733761-caae3b5f2e50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTg4MDYxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "team-vanshika-jain",
+      "description": "Photo of Vanshika Jain",
+      "imageUrl": "https://images.unsplash.com/photo-1701096374092-bb70915fdc5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cHJvZmVzc2lvbmFsJTIwaGVhZHNob3R8ZW58MHx8fHwxNzU4ODA2MTQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "team-yug-gupta",
+      "description": "Photo of Yug Gupta",
+      "imageUrl": "https://images.unsplash.com/photo-1573496358961-3c82861ab8f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTg4MDYxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "team-abdal-lalit",
+      "description": "Photo of Abdal Lalit",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTg4MDYxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "team-bhumika-jain",
+      "description": "Photo of Bhumika Jain",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTg4MDYxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "team-hannsika-jaiswal",
+      "description": "Photo of Hannsika Jaiswal",
+      "imageUrl": "https://images.unsplash.com/photo-1701096374092-bb70915fdc5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cHJvZmVzc2lvbmFsJTIwaGVhZHNob3R8ZW58MHx8fHwxNzU4ODA2MTQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "team-jinia-chatterjee",
+      "description": "Photo of Jinia Chatterjee",
+      "imageUrl": "https://images.unsplash.com/photo-1573496358961-3c82861ab8f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTg4MDYxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "team-kanav-batra",
+      "description": "Photo of Kanav Batra",
+      "imageUrl": "https://images.unsplash.com/photo-1595211877493-41a4e5f236b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTg4MDYxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "team-ketvi",
+      "description": "Photo of Ketvi",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTg4MDYxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "team-sanyam-kasera",
+      "description": "Photo of Sanyam Kasera",
+      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTg4MDYxNDh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "team-satwik-bajpai",
+      "description": "Photo of Satwik Bajpai",
+      "imageUrl": "https://images.unsplash.com/photo-1652471943570-f3590a4e52ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTg4MDYxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "team-tanisshq-jain",
+      "description": "Photo of Tanisshq Jain",
+      "imageUrl": "https://images.unsplash.com/photo-1573496358961-3c82861ab8f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTg4MDYxNDh8MA&ixlibrb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "team-tanmay-gupta",
+      "description": "Photo of Tanmay Gupta",
+      "imageUrl": "https://images.unsplash.com/photo-1629425733761-caae3b5f2e50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTg4MDYxNDh8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "team-vinamra-hetawal",
+      "description": "Photo of Vinamra Hetawal",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTg4MDYxNDh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "insight-1",
+      "description": "Image for 'The Startup Survival Code'",
+      "imageUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "startup meeting"
+    },
+    {
+      "id": "insight-2",
+      "description": "Image for 'Sustainable Business Models'",
+      "imageUrl": "https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdXN0YWluYWJsZSUyMGJ1c2luZXNzfGVufDB8fHx8MTc1ODgxOTU4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sustainable business"
+    },
+    {
+      "id": "insight-3",
+      "description": "Image for 'The Rise of the Gig Economy'",
+      "imageUrl": "https://images.unsplash.com/photo-1605565348518-bef3e7d6fed8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyZW1vdGUlMjB3b3JrfGVufDB8fHx8MTc1ODc3MDQxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "remote work"
+    },
+    {
+      "id": "insight-4",
+      "description": "Image for 'Navigating Digital Transformation'",
+      "imageUrl": "https://images.unsplash.com/photo-1644321939012-840bf13ea6d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwdHJhbnNmb3JtYXRpb258ZW58MHx8fHwxNzU4Nzc3NzMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital transformation"
+    },
+    {
+      "id": "insight-5",
+      "description": "Image for 'A Tower of Cards'",
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1679923813998-6603ee2466c5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "stock market"
+    },
+    {
+      "id": "insight-6",
+      "description": "Image for 'The Portfolio Gap'",
+      "imageUrl": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1080&auto=format&fit=crop",
+      "imageHint": "investment portfolio"
+    },
+    {
+      "id": "ficci-logo",
+      "description": "FICCI company logo",
+      "imageUrl": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?q=80&w=400&h=150",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "invest-india-logo",
+      "description": "Invest India company logo",
+      "imageUrl": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?q=80&w=400&h=150",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "niti-aayog-logo",
+      "description": "NITI Aayog company logo",
+      "imageUrl": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?q=80&w=400&h=150",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "ey-logo",
+      "description": "EY company logo",
+      "imageUrl": "https://images.unsplash.com/photo-159930544https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1080&auto=format&fit=crop5671-ac291c95aaa9?q=80&w=400&h=150",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "pwc-logo",
+      "description": "PwC company logo",
+      "imageUrl": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?q=80&w=400&h=150",
+      "imageHint": "company logo"
+    }
+  ]
+}
