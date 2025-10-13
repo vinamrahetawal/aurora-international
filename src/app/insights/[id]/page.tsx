@@ -43,7 +43,7 @@ export default function InsightDetailPage({ params }: { params: { id: string } }
           <header className="mb-12 text-center">
             <div className="flex flex-wrap justify-center gap-2 mb-4">
               {insight.tags.map((tag) => (
-                <Badge key={tag} variant="secondary" className="bg-primary/10 text-primary">{tag}</Badge>
+                <Badge key={tag} variant="secondary" className="bg-primary text-primary-foreground border-0">{tag}</Badge>
               ))}
             </div>
             <h1 className="font-headline text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
@@ -66,9 +66,10 @@ export default function InsightDetailPage({ params }: { params: { id: string } }
             </div>
           )}
           
-          <Card>
-            <CardContent className="p-8 md:p-12">
-                <div className="prose prose-lg max-w-none text-muted-foreground prose-headings:text-foreground prose-strong:text-foreground prose-p:text-lg">
+          <Card className="relative overflow-hidden border-0 bg-gradient-to-br from-primary/20 to-primary/30 backdrop-blur-sm shadow-xl">
+            <div className="absolute inset-0 bg-white/40 backdrop-blur-md"></div>
+            <CardContent className="p-8 md:p-12 relative z-10">
+                <div className="prose prose-lg max-w-none text-foreground prose-headings:text-foreground prose-strong:text-foreground prose-p:text-lg prose-h2:text-foreground">
                  {formattedContent}
                 </div>
             </CardContent>

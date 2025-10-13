@@ -10,14 +10,14 @@ export default function InsightsPage() {
             <h1 className="font-headline text-4xl md:text-6xl font-extrabold tracking-tight">
               Latest <span className="text-primary">Insights</span>
             </h1>
-            <p className="mt-6 max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground">
+            <p className="mt-4 max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground">
               Explore our latest articles, analyses, and perspectives on the trends shaping business and innovation.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="py-12 md:py-16">
+      <section className="pb-12 md:pb-16">
         <div className="container mx-auto px-6 md:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {insights.map((insight) => (

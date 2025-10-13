@@ -84,26 +84,23 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-12 md:py-16">
+      <section className="py-12 md:py-16 bg-primary">
         <div className="container mx-auto px-6 md:px-8">
-          <Card className="p-8 md:p-12 max-w-4xl mx-auto border-2 border-primary">
-            <CardContent className="p-0">
-              <div className="prose prose-lg max-w-none text-muted-foreground prose-headings:text-foreground prose-strong:text-foreground">
-                
-                <h2 className="font-headline text-3xl font-bold text-center mb-12">
-                  About <span className="transition-colors hover:text-primary">Aurora International</span>
-                </h2>
-                <div className="space-y-6 text-center">
-                  <p>
-                    Aurora International is a student-led global organization bringing together ambitious minds from leading universities across the world. We are a multidisciplinary hub offering solutions in consulting, marketing, finance, technology, policy, design, and more powered entirely by students with a passion for impact.
-                  </p>
-                  <p>
-                    We specialize in helping early-stage startups and growing businesses tackle their most pressing challenges through in-depth research, strategic insights, and actionable solutions. By bridging academia with industry, Aurora creates a platform where young talent delivers real-world, creative, and future-ready impact on a global scale.
-                  </p>
-                </div>
+          <div className="p-8 md:p-12 max-w-4xl mx-auto">
+            <div className="text-center">
+              <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary-foreground mb-12">
+                About Aurora International
+              </h2>
+              <div className="space-y-6 text-primary-foreground/90 text-lg">
+                <p>
+                  Aurora International is a student-led global organization bringing together ambitious minds from leading universities across the world. We are a multidisciplinary hub offering solutions in consulting, marketing, finance, technology, policy, design, and more powered entirely by students with a passion for impact.
+                </p>
+                <p>
+                  We specialize in helping early-stage startups and growing businesses tackle their most pressing challenges through in-depth research, strategic insights, and actionable solutions. By bridging academia with industry, Aurora creates a platform where young talent delivers real-world, creative, and future-ready impact on a global scale.
+                </p>
               </div>
-            </CardContent>
-          </Card>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -116,15 +113,15 @@ export default function AboutPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {whyAurora.map((item) => (
-              <Card key={item.number} className="bg-card border shadow-lg hover:shadow-primary/20 hover:-translate-y-2 transition-all duration-300 flex flex-col">
+              <Card key={item.number} className="bg-primary border-0 shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col">
                 <CardHeader className="flex-shrink-0">
                   <div className="flex items-start gap-4">
-                    <div className="text-4xl font-extrabold text-primary/30 -mt-2">{item.number}.</div>
-                    <CardTitle className="font-headline text-xl text-primary">{item.title}</CardTitle>
+                    <div className="text-4xl font-extrabold text-primary-foreground/40 -mt-2">{item.number}.</div>
+                    <CardTitle className="font-headline text-xl text-primary-foreground">{item.title}</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent className="flex-grow">
-                  <p className="text-muted-foreground">{item.description}</p>
+                  <p className="text-primary-foreground/90">{item.description}</p>
                 </CardContent>
               </Card>
             ))}
@@ -141,15 +138,26 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="relative w-full overflow-hidden mt-12 group">
-            <div className="flex animate-marquee-normal group-hover:[animation-play-state:paused]">
-                {[...universityLogos, ...universityLogos].map((logo, index) => (
-                    <div key={index} className="flex-shrink-0 w-48 h-24 mx-8 flex items-center justify-center">
+          <div className="relative w-full overflow-hidden mt-12">
+            <div className="flex gap-0">
+              <div className="flex animate-marquee-normal gap-0">
+                {universityLogos.map((logo, index) => (
+                    <div key={`first-${index}`} className="flex-shrink-0 w-48 h-24 mx-8 flex items-center justify-center">
                         <div className="bg-white p-2 rounded-md h-full w-full flex items-center justify-center">
                            <Image src={logo.path} alt={`${logo.name} logo`} width={160} height={60} className="object-contain w-full h-full" />
                         </div>
                     </div>
                 ))}
+              </div>
+              <div className="flex animate-marquee-normal gap-0">
+                {universityLogos.map((logo, index) => (
+                    <div key={`second-${index}`} className="flex-shrink-0 w-48 h-24 mx-8 flex items-center justify-center">
+                        <div className="bg-white p-2 rounded-md h-full w-full flex items-center justify-center">
+                           <Image src={logo.path} alt={`${logo.name} logo`} width={160} height={60} className="object-contain w-full h-full" />
+                        </div>
+                    </div>
+                ))}
+              </div>
             </div>
           </div>
 

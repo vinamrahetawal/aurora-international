@@ -4,30 +4,30 @@
 
 @layer base {
   :root {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 142.1 70.6% 45.3%;
-    --primary-foreground: 144 60% 10%;
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 142.1 70.6% 45.3%;
-    --chart-1: 142 71% 45%;
-    --chart-2: 221 83% 53%;
-    --chart-3: 48 96% 50%;
-    --chart-4: 300 74% 66%;
-    --chart-5: 180 87% 67%;
+    --background: 0 0% 100%;
+    --foreground: 150 60% 15%;
+    --card: 0 0% 98%;
+    --card-foreground: 150 60% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 60% 15%;
+    --primary: 150 65% 35%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 150 20% 92%;
+    --secondary-foreground: 150 60% 20%;
+    --muted: 150 15% 95%;
+    --muted-foreground: 150 20% 40%;
+    --accent: 150 55% 45%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 150 20% 85%;
+    --input: 150 20% 90%;
+    --ring: 150 65% 35%;
+    --chart-1: 150 65% 35%;
+    --chart-2: 150 55% 45%;
+    --chart-3: 150 40% 55%;
+    --chart-4: 150 30% 65%;
+    --chart-5: 150 20% 75%;
     --radius: 0.5rem;
   }
 }
@@ -50,106 +50,42 @@
   }
 }
 
-.aurora {
+/* Aurora background removed - using solid colors */
+
+/* Stars and cursor glow removed - using clean professional design */
+
+/* Shooting Star Cursor Effect */
+.cursor-stars-container {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
-  pointer-events: none;
-}
-
-.aurora__item {
-  overflow: visible;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: radial-gradient(
-    circle at center,
-    hsl(var(--primary) / 0.5) 0,
-    transparent 40%
-  );
-  -webkit-mask-image: radial-gradient(
-    ellipse at center,
-    white 0,
-    transparent 70%
-  );
-  mask-image: radial-gradient(ellipse at center, white 0, transparent 70%);
-  opacity: 0.4;
-  animation: animate-aurora 10s linear infinite alternate;
-}
-.aurora__item:nth-child(2) {
-  --x-start: -20vw;
-  --x-end: 20vw;
-  background: radial-gradient(
-    circle at center,
-    hsl(var(--chart-2) / 0.4) 0,
-    transparent 35%
-  );
-  top: -20vh;
-  left: -20vw;
-}
-.aurora__item:nth-child(3) {
-  --x-start: -30vw;
-  --x-end: 30vw;
-  background: radial-gradient(
-    circle at center,
-    hsl(var(--primary) / 0.3) 0,
-    transparent 45%
-  );
-  top: 10vh;
-  left: 30vw;
-}
-
-@keyframes twinkle {
-  0% { opacity: 0; }
-  50% { opacity: 0.8; }
-  100% { opacity: 0; }
-}
-
-.stars, .stars2, .stars3 {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   pointer-events: none;
-}
-
-.star {
-  position: absolute;
-  background-color: white;
-  border-radius: 50%;
-  animation: twinkle 2s infinite;
-}
-
-.stars .star {
-  width: 1px;
-  height: 1px;
-}
-
-.stars2 .star {
-  width: 2px;
-  height: 2px;
-}
-
-.stars3 .star {
-  width: 3px;
-  height: 3px;
-}
-
-.cursor-glow {
-  position: fixed;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  border-radius: 50%;
-  background: hsl(var(--primary) / 0.1);
-  filter: blur(80px);
-  transform: translate(-50%, -50%);
-  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
   z-index: 9999;
+  overflow: hidden;
+}
+
+.shooting-star {
+  position: absolute;
+  background: linear-gradient(to right, transparent, hsl(var(--primary)), transparent);
+  width: 30px;
+  height: 2px;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0;
+  animation: shoot var(--animation-duration, 0.8s) forwards ease-out;
+  filter: drop-shadow(0 0 5px hsl(var(--primary) / 0.7));
+  transform: rotate(var(--angle, 45deg));
+}
+
+@keyframes shoot {
+  0% {
+    opacity: 0.8;
+    transform: translate(0, 0) rotate(var(--angle, 45deg));
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--travel-x, 50px), var(--travel-y, 50px)) rotate(var(--angle, 45deg));
+  }
 }

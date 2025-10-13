@@ -12,12 +12,13 @@ function TeamMemberCard({ member }: { member: typeof teamMembers[0] }) {
   const [imageError, setImageError] = useState(false);
 
   return (
-    <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.33%-1.5rem)] lg:w-[calc(25%-1.5rem)]">
-      <Card className="group relative overflow-hidden text-center bg-background border shadow-lg hover:shadow-primary/20 hover:-translate-y-2 transition-all duration-300 h-full">
-        <CardContent className="p-6 flex flex-col items-center">
-          <div className="relative w-32 h-32 mb-4 rounded-full border-4 border-transparent group-hover:border-primary transition-colors duration-300 flex items-center justify-center bg-muted overflow-hidden">
+    <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.33%-1.5rem)]">
+      <Card className="group relative overflow-hidden text-center border-0 bg-gradient-to-br from-primary/90 to-primary backdrop-blur-sm text-primary-foreground shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 h-full hover:from-primary hover:to-primary">
+        <div className="absolute inset-0 bg-black/10 backdrop-blur-md"></div>
+        <CardContent className="p-6 flex flex-col items-center relative z-10">
+          <div className="relative w-32 h-32 mb-4 rounded-full border-4 border-white/30 group-hover:border-white group-hover:shadow-lg group-hover:shadow-white/50 transition-all duration-300 flex items-center justify-center bg-white/20 backdrop-blur-sm overflow-hidden">
             {imageError ? (
-              <User className="h-16 w-16 text-muted-foreground" />
+              <User className="h-16 w-16 text-primary-foreground" />
             ) : (
               <Image
                 src={member.photoPath}
@@ -30,10 +31,10 @@ function TeamMemberCard({ member }: { member: typeof teamMembers[0] }) {
               />
             )}
           </div>
-          <h3 className="font-headline text-xl font-semibold">{member.name}</h3>
-          <p className="text-primary font-medium">{member.position}</p>
-          <p className="text-muted-foreground text-sm mt-1">{member.university}</p>
-          <Link href={member.linkedin} target="_blank" rel="noopener noreferrer" className="mt-4 text-muted-foreground hover:text-primary transition-colors">
+          <h3 className="font-headline text-xl font-semibold text-primary-foreground">{member.name}</h3>
+          <p className="text-primary-foreground/90 font-medium">{member.position}</p>
+          <p className="text-primary-foreground/80 text-sm mt-1">{member.university}</p>
+          <Link href={member.linkedin} target="_blank" rel="noopener noreferrer" className="mt-4 text-primary-foreground/80 hover:text-primary-foreground transition-colors">
             <Linkedin className="h-6 w-6" />
           </Link>
         </CardContent>
@@ -51,14 +52,14 @@ export default function TeamPage() {
             <h1 className="font-headline text-4xl md:text-6xl font-extrabold tracking-tight">
               Meet Our <span className="text-primary">Team</span>
             </h1>
-            <p className="mt-6 max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground">
+            <p className="mt-4 max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground">
               A diverse group of innovators, strategists, and leaders from top universities across the globe.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="py-12 md:py-16">
+      <section className="pb-12 md:pb-16">
         <div className="container mx-auto px-6 md:px-8">
           <div className="flex flex-wrap justify-center gap-8">
             {teamMembers.map((member) => (
