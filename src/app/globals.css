@@ -54,6 +54,22 @@
 
 /* Stars and cursor glow removed - using clean professional design */
 
+/* Typewriter Effect */
+.typewriter-cursor {
+  display: inline-block;
+  margin-left: 4px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
 /* Shooting Star Cursor Effect */
 .cursor-stars-container {
   position: fixed;

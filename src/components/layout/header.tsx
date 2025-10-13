@@ -53,11 +53,11 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-20 items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2">
+        <Link href="/" className="flex items-center space-x-2 mr-auto">
           <AuroraLogo className="h-8 w-auto" />
         </Link>
         
-        <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:block">
+        <div className="hidden md:flex md:mx-auto">
           <HeaderMenu />
         </div>
         
@@ -73,30 +73,30 @@ export function Header() {
                     <span className="sr-only">Open Menu</span>
                   </Button>
                 </SheetTrigger>
-                <SheetContent side="left" className="pr-0 bg-background">
-                  <SheetHeader className="pl-6">
+                <SheetContent side="left" className="pr-0 bg-background w-[280px]">
+                  <SheetHeader className="pl-6 pt-6">
                     <SheetTitle className="sr-only">Mobile Menu</SheetTitle>
-                    <Link href="/" className="flex items-center" onClick={() => setMenuOpen(false)}>
-                      <AuroraLogo className="h-6 w-auto" />
+                    <Link href="/" className="flex items-center mb-8" onClick={() => setMenuOpen(false)}>
+                      <AuroraLogo className="h-7 w-auto text-xl" />
                     </Link>
                   </SheetHeader>
                   <div className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
-                    <div className="flex flex-col space-y-4">
+                    <div className="flex flex-col space-y-6">
                       {navLinks.map((link) => (
                         <Link
                           key={link.name}
                           href={link.href}
                           onClick={() => setMenuOpen(false)}
                           className={cn(
-                            'text-lg font-medium transition-colors hover:text-primary',
-                            pathname === link.href ? 'text-primary' : 'text-foreground/80'
+                            'text-xl font-semibold transition-colors hover:text-primary',
+                            pathname === link.href ? 'text-primary' : 'text-foreground'
                           )}
                         >
                           {link.name}
                         </Link>
                       ))}
                     </div>
-                    <Button asChild className="mt-8 bg-primary text-primary-foreground font-semibold">
+                    <Button asChild size="sm" className="mt-10 bg-primary text-primary-foreground font-semibold hover:bg-primary/90 px-6 py-2">
                         <Link href="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link>
                     </Button>
                   </div>

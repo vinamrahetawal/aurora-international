@@ -17,6 +17,20 @@ export default function Home() {
     'Data & Digital Solutions',
   ];
 
+  const universityLogos = [
+    { name: 'University of Manchester', path: '/Institutions/University_Manchester.png' },
+    { name: 'University of Warwick', path: '/Institutions/University_of_Warwick_logo.png' },
+    { name: 'University of Sydney', path: '/Institutions/image (8).png' },
+    { name: 'Lasalle College of the Arts', path: '/Institutions/lasalle logo.png' },
+    { name: 'Monash University', path: '/Institutions/image (7).png' },
+    { name: 'IIM Mumbai', path: '/Institutions/image (5).png' },
+    { name: 'IIM Lucknow', path: '/Institutions/image (6).png' },
+    { name: 'SSCBS', path: '/Institutions/image.png' },
+    { name: 'DTU', path: '/Institutions/image (4).png' },
+    { name: 'Miranda House', path: '/Institutions/image (3).png' },
+    { name: 'Acropolis Institute', path: '/Institutions/image (1).png' },
+  ];
+
   const companyLogos = [
     { name: 'ITC', path: '/companies/itc.png', large: false },
     { name: 'FICCI', path: '/companies/ficci.png', large: false },
@@ -36,6 +50,41 @@ export default function Home() {
     <div className="flex flex-col">
       <InteractiveHero />
       
+      {/* Our Global Reach Section */}
+      <section className="py-12 md:py-16 bg-muted/30">
+        <div className="container mx-auto px-6 md:px-8">
+          <div className="text-center mb-12">
+            <h2 className="font-headline text-4xl font-bold text-foreground">Our Global Reach</h2>
+            <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
+              Our network includes students from prestigious institutions such as the University of Manchester, University of Warwick, University of Sydney, Lasalle College of the Arts, Monash University, Shaheed Sukhdev College of Business Studies (SSCBS), Delhi Technological University (DTU), University of Delhi, and many more.
+            </p>
+          </div>
+
+          <div className="relative w-full overflow-hidden mt-12">
+            <div className="flex gap-0">
+              <div className="flex animate-marquee-normal gap-0">
+                {universityLogos.map((logo, index) => (
+                    <div key={`first-${index}`} className="flex-shrink-0 w-48 h-24 mx-8 flex items-center justify-center">
+                        <div className="bg-white p-2 rounded-md h-full w-full flex items-center justify-center">
+                           <Image src={logo.path} alt={`${logo.name} logo`} width={160} height={60} className="object-contain w-full h-full" />
+                        </div>
+                    </div>
+                ))}
+              </div>
+              <div className="flex animate-marquee-normal gap-0">
+                {universityLogos.map((logo, index) => (
+                    <div key={`second-${index}`} className="flex-shrink-0 w-48 h-24 mx-8 flex items-center justify-center">
+                        <div className="bg-white p-2 rounded-md h-full w-full flex items-center justify-center">
+                           <Image src={logo.path} alt={`${logo.name} logo`} width={160} height={60} className="object-contain w-full h-full" />
+                        </div>
+                    </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Highlights Section */}
       <section id="highlights" className="relative z-10 py-12 md:py-16">
         <div className="container mx-auto px-6 md:px-8">

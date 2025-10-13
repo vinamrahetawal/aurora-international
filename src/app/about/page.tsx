@@ -130,48 +130,6 @@ export default function AboutPage() {
       </section>
 
       <section className="py-12 md:py-16">
-        <div className="container mx-auto px-6 md:px-8">
-          <div className="text-center mb-12">
-            <h2 className="font-headline text-4xl font-bold text-foreground">Our Global Reach</h2>
-            <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-              Our network includes students from prestigious institutions such as the University of Manchester, University of Warwick, University of Sydney, Lasalle College of the Arts, Monash University, Shaheed Sukhdev College of Business Studies (SSCBS), Delhi Technological University (DTU), University of Delhi, and many more.
-            </p>
-          </div>
-
-          <div className="relative w-full overflow-hidden mt-12">
-            <div className="flex gap-0">
-              <div className="flex animate-marquee-normal gap-0">
-                {universityLogos.map((logo, index) => (
-                    <div key={`first-${index}`} className="flex-shrink-0 w-48 h-24 mx-8 flex items-center justify-center">
-                        <div className="bg-white p-2 rounded-md h-full w-full flex items-center justify-center">
-                           <Image src={logo.path} alt={`${logo.name} logo`} width={160} height={60} className="object-contain w-full h-full" />
-                        </div>
-                    </div>
-                ))}
-              </div>
-              <div className="flex animate-marquee-normal gap-0">
-                {universityLogos.map((logo, index) => (
-                    <div key={`second-${index}`} className="flex-shrink-0 w-48 h-24 mx-8 flex items-center justify-center">
-                        <div className="bg-white p-2 rounded-md h-full w-full flex items-center justify-center">
-                           <Image src={logo.path} alt={`${logo.name} logo`} width={160} height={60} className="object-contain w-full h-full" />
-                        </div>
-                    </div>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-wrap justify-center gap-4 mt-12">
-            {universities.map((uni) => (
-              <div key={uni} className="bg-background border rounded-full px-5 py-2 text-sm font-medium text-muted-foreground transition-all duration-300 hover:bg-primary hover:text-primary-foreground hover:shadow-lg hover:-translate-y-1 hover:scale-105 cursor-pointer">
-                {uni}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="py-12 md:py-16">
         <div className="container mx-auto text-center px-6 md:px-8">
             <h2 className="font-headline text-4xl font-bold text-foreground">Join Our Vision</h2>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
