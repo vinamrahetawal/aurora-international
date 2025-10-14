@@ -8,11 +8,14 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 
-function TeamMemberCard({ member }: { member: typeof teamMembers[0] }) {
+function TeamMemberCard({ member, isCofounder = false }: { member: typeof teamMembers[0], isCofounder?: boolean }) {
   const [imageError, setImageError] = useState(false);
 
   return (
-    <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.33%-1.5rem)]">
+    <div className={cn(
+      "w-full",
+      isCofounder ? "sm:w-[calc(50%-1rem)] lg:w-[calc(33.33%-1.5rem)]" : "sm:w-[calc(50%-1rem)] lg:w-[calc(25%-1.5rem)]"
+    )}>
       <Card className="group relative overflow-hidden text-center border-0 bg-gradient-to-br from-primary/90 to-primary backdrop-blur-sm text-primary-foreground shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 h-full hover:from-primary hover:to-primary">
         <div className="absolute inset-0 bg-black/10 backdrop-blur-md"></div>
         <CardContent className="p-6 flex flex-col items-center relative z-10">
@@ -44,6 +47,9 @@ function TeamMemberCard({ member }: { member: typeof teamMembers[0] }) {
 }
 
 export default function TeamPage() {
+  const coFounders = teamMembers.filter(member => member.position === 'Co-Founder');
+  const seniorConsultants = teamMembers.filter(member => member.position === 'Senior Consultant');
+
   return (
     <>
       <section className="py-12 md:py-16">
@@ -59,11 +65,25 @@ export default function TeamPage() {
         </div>
       </section>
 
+      {/* Co-Founders Section */}
+      <section className="pb-8 md:pb-12">
+        <div className="container mx-auto px-6 md:px-8">
+          <h2 className="font-headline text-2xl md:text-3xl font-bold text-center mb-8">Co-Founders</h2>
+          <div className="flex flex-wrap justify-center gap-8">
+            {coFounders.map((member) => (
+              <TeamMemberCard key={member.name} member={member} isCofounder={true} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Senior Consultants Section */}
       <section className="pb-12 md:pb-16">
         <div className="container mx-auto px-6 md:px-8">
+          <h2 className="font-headline text-2xl md:text-3xl font-bold text-center mb-8">Senior Consultants</h2>
           <div className="flex flex-wrap justify-center gap-8">
-            {teamMembers.map((member) => (
-              <TeamMemberCard key={member.name} member={member} />
+            {seniorConsultants.map((member) => (
+              <TeamMemberCard key={member.name} member={member} isCofounder={false} />
             ))}
           </div>
         </div>

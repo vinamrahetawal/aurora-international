@@ -116,9 +116,9 @@
     },
     {
       "id": "insight-4",
-      "description": "Image for 'Navigating Digital Transformation'",
-      "imageUrl": "https://images.unsplash.com/photo-1644321939012-840bf13ea6d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwdHJhbnNmb3JtYXRpb258ZW58MHx8fHwxNzU4Nzc3NzMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "digital transformation"
+      "description": "Image for 'Green Tech and AI'",
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxncmVlbiUyMHRlY2hub2xvZ3klMjBBSXxlbnwwfHx8fDE3NTg4MTk1Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "green technology and AI"
     },
     {
       "id": "insight-5",
@@ -128,9 +128,9 @@
     },
     {
       "id": "insight-6",
-      "description": "Image for 'The Portfolio Gap'",
-      "imageUrl": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1080&auto=format&fit=crop",
-      "imageHint": "investment portfolio"
+      "description": "Image for 'India's AI Moment: From Free Internet to Free AI'",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "artificial intelligence and digital technology India"
     },
     {
       "id": "ficci-logo",

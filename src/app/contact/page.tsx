@@ -6,17 +6,17 @@ export default function ContactPage() {
     {
       name: 'Gauri Gaur',
       phone: '+91 8750342342',
-      email: 'gaurigaur0207@gmail.com',
+      email: 'gauri.gaur@auroraint.org',
     },
     {
       name: 'Vanshika Jain',
       phone: '+91 9654179860',
-      email: 'vanshika.23552@sscbs.du.ac.in',
+      email: 'vanshika.jain@auroraint.org',
     },
     {
       name: 'Kavy Rastogi',
       phone: '+91 82992 03974',
-      email: 'kavyrastogi@gmail.com',
+      email: 'kavy.rastogi@auroraint.org',
     },
   ];
 

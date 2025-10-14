@@ -203,7 +203,7 @@ export default function Home() {
                     width={logo.large ? 180 : 120} 
                     height={logo.large ? 90 : 60} 
                     className="object-contain w-full h-full" 
-                    style={{ transform: logo.large ? 'scale(1.6)' : 'scale(1)' }}
+                    style={{ transform: logo.large ? 'scale(1.2)' : 'scale(1)' }}
                   />
                 </div>
               </div>

@@ -21,7 +21,6 @@ export const teamMembers: TeamMember[] = [
   { name: 'Kanav Batra', position: 'Senior Consultant', university: 'University Of Sydney', linkedin: 'https://linkedin.com', photoPath: '/team/Kanav Batra.png' },
   { name: 'Ketvi Jasrotia', position: 'Senior Consultant', university: 'University Of Manchester', linkedin: 'https://linkedin.com/in/ketvi-jasrotia-153255379', photoPath: '/team/Ketvi.png' },
   { name: 'Sanyam Kasera', position: 'Senior Consultant', university: 'Shaheed Sukhdev College Of Business Studies', linkedin: 'https://linkedin.com', photoPath: '/team/Sanyam.png' },
-  { name: 'Satwik Bajpai', position: 'Senior Consultant', university: 'Indian Institute Of Management Mumbai', linkedin: 'https://www.linkedin.com/in/satwikbajpai', photoPath: '/team/Satwik Bajpai.png' },
   { name: 'Tanisshq Jain', position: 'Senior Consultant', university: 'University Of Manchester', linkedin: 'https://www.linkedin.com/in/tanisshqjaiin', photoPath: '/team/Tanisshq Jain.png' },
   { name: 'Tanmay Gupta', position: 'Senior Consultant', university: 'University Of Warwick', linkedin: 'http://www.linkedin.com/in/tanmay-gupta-73b311287', photoPath: '/team/Tanmay Gupta.png' },
   { name: 'Vinamra Hetawal', position: 'Senior Consultant', university: 'Acropolis Institute Of Technology & Research', linkedin: 'https://www.linkedin.com/in/vinamra-hetawal-0573521b7', photoPath: '/team/Vinamra Hetawal.png' },
@@ -189,7 +188,7 @@ By committing to ethical supply chains today, you’re not just meeting consumer
     id: '3',
     title: 'Why ESG is Now a Startup Necessity',
     date: '2025-10-10',
-    author: 'Ginia Chatterjee',
+    author: 'Jinia Chatterjee',
     tags: ['ESG', 'Startups', 'Sustainability'],
     image: { id: 'insight-3', alt: 'Person working on a laptop in a cafe' },
     content: `**Introduction**
@@ -221,9 +220,9 @@ Sustainability is no longer a ‘box to tick.’ It is a competitive edge and st
   },
   {
     id: '4',
-    title: 'Algorithmic Injustice and Worker Voices in India’s Gig Economy',
+    title: 'India\'s AI Moment: From Free Internet to Free AI',
     date: '2025-10-22',
-    author: 'Satvik Bajpai',
+    author: 'Tanisshq Jain',
     tags: ['Gig Economy', 'India', 'Labor'],
     image: { id: 'insight-4', alt: 'Digital network connections' },
     content: `The rapid growth of India’s gig economy—driven by platforms like Swiggy, Zomato, Ola, and Uber—has created millions of flexible, on-demand jobs. Yet, beneath this promise of independence lies a system where algorithmic management silently dictates workers’ livelihoods. These algorithms allocate tasks, impose penalties, and calculate incentives with little transparency, shaping not only incomes but also workers’ dignity and well-being.
@@ -296,48 +295,47 @@ https://medium.com/@gianetan/algorithmic-trading-in-the-indian-stock-market-a-re
   },
   {
     id: '6',
-    title: 'The Portfolio Gap- How India’s FDI Policy Creates a Blind Spot in Retail Portfolios',
+    title: 'India\'s AI Moment: From Free Internet to Free AI',
     date: '2025-10-12',
-    author: 'Bhumika Jain',
-    tags: ['Finance', 'India', 'Investment', 'FDI'],
-    image: { id: 'insight-6', alt: 'An investment portfolio analysis on a screen' },
-    content: `**INTRODUCTION**
-India’s attracting billions, but guess who’s feeling left out? The Indian retail investor. 
-With foreign direct investment (FDI) inflows exceeding USD 50 billion, India has emerged as a global investment hub. The government’s FDI framework has led to massive capital inflows across various sectors, but it has also exposed a paradox- while global companies thrive on Indian soil, domestic retail investors struggle to invest in these companies that thrive in their own backyard.
+    author: 'Abdal Lalit',
+    tags: ['AI', 'India', 'Technology', 'Policy'],
+    image: { id: 'insight-6', alt: 'Artificial intelligence and digital India visualization' },
+    content: `**The Echoes of 2015**
 
-**INDIA’S FDI POLICY** 
-India’s remarkable progress in attracting foreign investment can be seen from the fact that cumulative foreign capital has reached $1 trillion since April 2000. Key drivers of this growth include improved global competitiveness, dynamic innovation ecosystem with initiatives such as "Make in India" and “Jan Vishwas 2.0”, and liberalisation of sectoral policies- most of which are now open for 100% FDI under the automatic route. 
-Yet, the same FDI policies attracting foreign capital often shut out Indian retail investors from participating in the growth they help enable.
+In 2015, India became the battleground for Facebook's ambitious push to capture the country's digital future. Through Internet.org (later Free Basics), the company promised free internet—but with strings attached. The scheme offered only a narrow, walled-garden version of the web, sparking concerns about net neutrality and digital colonization. After a long, sustained campaign, regulators in India shut it down, setting a global precedent for internet freedom.
 
-**CHALLENGES FOR RETAIL INVESTORS**
-Despite massive foreign investment inflows, many global giants operating in India remain unlisted. Retail investors miss out on dividends and capital appreciation from companies that dominate the Indian market.
-While the Liberalised Remittance Scheme (LRS) allows individuals to invest up to USD 250,000 per year abroad, investing internationally is still not the same as investing in domestic equities. Volatile currency exchange rates, high transaction fees, and lack of tax benefits are just some of the factors that incentivize investors to play it safe.
+Fast-forward to 2025, and history appears to be repeating itself. This time, the players are OpenAI, Perplexity, and other global AI giants. Their approach mirrors the earlier playbook: provide access for free, scale fast, and embed themselves deeply in India's digital fabric.
 
-India does not currently have a clear and supportive policy framework that can stimulate foreign giants’ listing in India. Netflix, Amazon, Google (Alphabet), and Meta, practically glued to Indian pockets, remain far from Indian portfolios. Meanwhile companies like Hindustan Unilever, P&G, and ABB have proved that when foreign MNCs do list in India, not only do they grow faster, they let the local investors in on the action. For instance, Nestle India, a subsidiary of Switzerland’s Nestle, had its stocks climb nearly 79% over the past 5 years with a return on capital employed (ROCE) of over 160%. It rewarded investors through consistent dividends and even a 1:1 bonus share issue in 2025.
-But these are still exceptions- without the right push from policy, most companies stay out of reach for Indian investors.
+**AI Companies Go on Offense**
 
-Here are some missed opportunities- companies that  made huge profits from Indian consumers but left local investors empty-handed:
+Over the past few months, AI billboards have appeared across India, not just in metros like Delhi or Mumbai, but also in tier-2 cities like Jaipur. These ads highlight everyday uses of ChatGPT—from schoolwork to health tips—making AI visible, accessible, and aspirational.
 
-Samsung Electronics, India- Wholly owned by Samsung  Electronics, Korea
-Samsung entered India in 1995. In FY24 reported a ₹8,188 crore net profit where profits doubled year-on-year and yet, no listing.
+Behind the glossy marketing lies a distribution strategy similar to Facebook's a decade ago. Partnerships with telecom providers, government agencies, and educational institutions are enabling AI companies to reach millions of students and educators directly. For example, OpenAI has collaborated with the Ministry of Education and AICTE to distribute half a million free licenses. Perplexity is working with Airtel to extend access across its network.
 
-Netflix India
-In FY23, Netflix India’s profit jumped 75% and revenues rose 24% on the back of subscriber growth. But look where that got us- absolutely nowhere.
+The logic is clear: offer AI for free, and in doing so, lock users into a platform before competitors—or regulations—catch up.
 
-Marriott International- Hotels and Resorts 
-Marriott had a record (Jan-Dec 2023) here in India with topline revenue crossing over $1 billion at over ₹9000 crore. Hope you enjoyed your stay, because that’s the only return you can get from Marriott.
+**The Missing Safeguards**
 
-The pattern is pretty clear. Every single reform made it easier for foreign companies to come here and make money off us, but there was no system where we could actually invest in these companies that are literally building their empires on our consumption habits. 
+When Free Basics was shut down, it was due to both public resistance and regulatory intervention in favor of net neutrality. With AI, neither exists today. There is no equivalent of "AI neutrality" to ensure equal access and fair competition. Nor is there a groundswell of citizen activism pushing back against walled gardens of generative AI.
 
-**CONCLUSION**
-The policy framework of a country not only affects economic development but also shapes the investment opportunities. Today, while India’s GDP growth is impressive, the average investment portfolio- still stuck in traditional sectors-  barely benefits from it. That’s the blind spot- the regimes make us attractive to operate in but unattractive to list in- leaving citizens only as consumers, not as shareholders. 
+This vacuum has allowed American AI companies to embed themselves rapidly into India's digital infrastructure. The government itself, while issuing visionary reports about India becoming the "data capital of the world," seems more focused on adoption than on ensuring sovereignty over technology and data.
 
-**REFERENCES:**
+**India's Strategic Dilemma**
 
-https://www.rbi.org.in/commonman/english/Scripts/FAQs.aspx?Id=1834
-https://www.angelone.in/smart-money/investment-course/how-to-invest-in-foreign-stocks
-https://www.livemint.com/market/stock-market-news/nestle-india-colgate-palmolive-p-g-hygiene-castrol-mncs-valuations-stock-markets-roce-profitability-dividends-11728999789654.html
-https://timesofindia.indiatimes.com/business/india-business/india-shining-marriott-topline-revenue-crosses-1-billion-on-a-signing-spree-here/articleshow/108057737.cms`
+The country now faces a familiar challenge: how to balance the benefits of rapid AI adoption with the risks of dependency on foreign platforms. While Sam Altman lauds India as OpenAI's second-largest market, his comments dismissing the possibility of Indian startups building world-class foundation models reveal the underlying imbalance. India risks becoming a massive consumer and data supplier, without building indigenous capacity in AI innovation.
+
+The lesson from the Free Basics era is that true digital empowerment comes not just from access, but from ownership. Unless India invests in nurturing its own ecosystem—supporting startups, funding research, and creating open standards—its AI future will remain tethered to Silicon Valley.
+
+**Conclusion**
+
+India's AI revolution is unfolding at breakneck speed, echoing the country's earlier brush with free internet. The challenge this time is larger: the stakes are not just about access, but about control over the technologies that will define the next generation.
+
+AI is no longer a distant frontier—it is the playing field of global competition. Startups that embed responsible AI practices early will be the ones that thrive in tomorrow's economy.
+
+By guiding young businesses through this transition, Aurora helps shape ventures that are not only profitable but also pioneering. In 2025 and beyond, the startups that survive will not just be the fastest or the cheapest, they will be the most future-ready.
+
+**References:**
+https://the-ken.com/columns/zero-shot/india-goes-from-free-internet-to-free-ai/`
   }
 ];
 
@@ -346,7 +344,6 @@ export const highlights: Highlight[] = [
   { title: 'Real-world Impact', desc: 'Bridging academia and industry with actionable insights.' },
   { title: 'Multidisciplinary Solutions', desc: 'Consulting, marketing, finance, tech, and more.' }
 ];
-
     
 
     
