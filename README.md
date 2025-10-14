@@ -64,10 +64,10 @@ aurora-frontend/
 ├── public/              # Static assets
 │   ├── Institutions/    # University logos
 │   └── team/           # Team member photos
+│   └── companies/           # companies photos
 ├── src/
 │   ├── app/            # Next.js app router pages
 │   │   ├── about/      # About page
-│   │   ├── achievements/ # Achievements page
 │   │   ├── contact/    # Contact page
 │   │   ├── insights/   # Insights/blog section
 │   │   ├── services/   # Services page
