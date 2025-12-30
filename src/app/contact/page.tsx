@@ -1,6 +1,8 @@
 import { ContactForm } from '@/components/contact-form';
 import { Mail, Linkedin, MapPin, User, Phone } from 'lucide-react';
 
+export const runtime = 'nodejs';
+
 export default function ContactPage() {
   const contacts = [
     {

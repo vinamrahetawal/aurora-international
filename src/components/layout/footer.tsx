@@ -54,17 +54,6 @@ export function Footer() {
         </div>
         <div className="mt-16 border-t border-border/50 pt-8 text-center text-sm text-muted-foreground">
           <p>&copy; {new Date().getFullYear()} Aurora International. All rights reserved.</p>
-          <p className="mt-2">
-            website by{' '}
-            <a 
-              href="https://www.linkedin.com/in/vinamra-hetawal-0573521b7" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors underline-offset-4 hover:underline font-medium"
-            >
-              Vinamra Hetawal
-            </a>
-          </p>
         </div>
       </div>
     </footer>

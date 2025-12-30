@@ -52,13 +52,17 @@ export function ContactForm() {
         });
         form.reset();
       } else {
-        throw new Error(result.message);
+        toast({
+          variant: 'destructive',
+          title: 'Unable to send message',
+          description: result.message,
+        });
       }
     } catch (error) {
       toast({
         variant: 'destructive',
         title: 'Uh oh! Something went wrong.',
-        description: 'There was a problem with your request. Please try again.',
+        description: 'There was a problem sending your message. Please try again.',
       });
     } finally {
       setIsSubmitting(false);
