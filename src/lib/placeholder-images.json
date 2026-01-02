@@ -37,12 +37,6 @@
       "imageHint": "professional headshot"
     },
     {
-      "id": "team-bhumika-jain",
-      "description": "Photo of Bhumika Jain",
-      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTg4MDYxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional headshot"
-    },
-    {
       "id": "team-hannsika-jaiswal",
       "description": "Photo of Hannsika Jaiswal",
       "imageUrl": "https://images.unsplash.com/photo-1701096374092-bb70915fdc5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cHJvZmVzc2lvbmFsJTIwaGVhZHNob3R8ZW58MHx8fHwxNzU4ODA2MTQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -119,12 +113,6 @@
       "description": "Image for 'Green Tech and AI'",
       "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxncmVlbiUyMHRlY2hub2xvZ3klMjBBSXxlbnwwfHx8fDE3NTg4MTk1Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "green technology and AI"
-    },
-    {
-      "id": "insight-5",
-      "description": "Image for 'A Tower of Cards'",
-      "imageUrl": "https://plus.unsplash.com/premium_photo-1679923813998-6603ee2466c5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "stock market"
     },
     {
       "id": "insight-6",

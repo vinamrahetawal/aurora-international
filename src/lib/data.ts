@@ -15,7 +15,6 @@ export const teamMembers: TeamMember[] = [
   { name: 'Vanshika Jain', position: 'Co-Founder', university: 'Shaheed Sukhdev College Of Business Studies', linkedin: 'https://www.linkedin.com/in/vanshika-jain-9b0347284', photoPath: '/team/Vanshika Jain.png' },
   { name: 'Kavy Rastogi', position: 'Co-Founder', university: 'Shaheed Sukhdev College of Business Studies', linkedin: 'https://www.linkedin.com/in/kavyrastogi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', photoPath: '/team/Kavy.png' },
   { name: 'Abdal Lalit', position: 'Senior Consultant', university: 'Indian Institute Of Management Lucknow', linkedin: 'https://www.linkedin.com/in/abdal-lalit/', photoPath: '/team/Abdal Lalit.png' },
-  { name: 'Bhumika Jain', position: 'Senior Consultant', university: 'Miranda House, DU', linkedin: 'https://in.linkedin.com/in/bhumikajain13', photoPath: '/team/Bhumika Jain.png' },
   { name: 'Hannsika Jaiswal', position: 'Senior Consultant', university: 'Lasalle College Of Arts, Singapore', linkedin: 'https://linkedin.com', photoPath: '/team/Hannsika Jaiswal.png' },
   { name: 'Jinia Chatterjee', position: 'Senior Consultant', university: 'Monash University, Malaysia', linkedin: 'https://www.linkedin.com/in/jinia-chatterjee-b87942298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', photoPath: '/team/Jinia Chatterjee.png' },
   { name: 'Kanav Batra', position: 'Senior Consultant', university: 'University Of Sydney', linkedin: 'https://linkedin.com', photoPath: '/team/Kanav Batra.png' },
@@ -256,42 +255,6 @@ These suggestions form an ethical framework for inclusive algorithm design, alig
 **Policy and Future Directions**
 
 As India experiments with gig worker welfare laws, this research stresses the need to tackle algorithmic opacity directly. Future studies should expand to other cities, audit platform algorithms, and evaluate new policies’ real-world impact. Ultimately, the gig economy’s sustainability depends on trust and fairness. By embedding justice into digital labor platforms, India can transform gig work from a survival strategy into a dignified livelihood.`
-  },
-  {
-    id: '5',
-    title: 'A Tower of Cards: How Retail Traders Are Vulnerable in India\'s Explosive Options Market',
-    date: '2025-09-05',
-    author: 'Bhumika Jain',
-    tags: ['Finance', 'India', 'Trading'],
-    image: { id: 'insight-5', alt: 'A stock market chart on a screen' },
-    content: `**Introduction**
- 
-India's derivatives market has surged from an esoteric trading segment to a mainstream phenomenon but there's an alarming truth behind this growth story, from once being seen as a tool for democratizing investing, the F&O market has now morphed into a high-stakes casino.
- 
-**The Case of F&O Sector**
- 
-The F&O segment’s meteoric rise is staggering. In March 2024, its monthly turnover hit ₹8,740 lakh crore, dwarfing the equity cash market’s ₹1 lakh crore daily average. This surge has made India the world’s largest derivatives market, accounting for 78% of global options contracts.
- 
-But behind the glamour lies a troubling reality, exposed by a SEBI report which points out that nine out of ten retail traders in the segment lose their money. Between FY22–FY24, individuals collectively lost ₹1.81 lakh crore, a figure that only worsened in FY25. It’s safe to say that the retail boom- fuelled by mobile apps and influencer hype have led people to make risky leveraged bets, and therefore turned into a debt trap.
- 
-Retailers remain especially vulnerable because they lack the tools, speed, resources and expertise of institutional players. Algorithms and high-frequency trades dominate profits, leaving retail participants exposed to volatility they cannot manage. The Jane Street scandal only amplified this imbalance, forcing regulators to confront what was already evident: the system works against the small trader.
- 
-Fearing an inevitable blow-off, SEBI has finally decided to implement broad changes making it more difficult for retail investors to indulge in risky trading options. These changes included nearly doubling the minimum contract sizes from ₹5-10 lakhs to ₹15-20 lakhs, capping weekly expiries and making upfront payment compulsory. As a result, in terms of speculative trade, volumes fell by 29% immediately and the retail participants dropped by 20%. However, it has almost been too late for the people who became a victim to the global trading firms because regulatory bodies in India failed to keep a check on movement of options in the market. 
- 
-**Conclusion**
- 
-Now, as India sprints to become the 3rd largest economy by 2030, The status quo in Trading is at its democratic best as retail traders can trade options by just a click on their smartphones but also at its predatory worst as they can be played against trillion-dollar algorithmic systems. In the backdrop of the Jane Street case, it's an alarming call for SEBI and authorities to regulate these murky waters as It does not matter how ostensibly attractive the tower of cards is- if it leads to the ruin of the very people it was built on the backs of, its fall is inevitable. 
-
-**Sources:**
- 
-https://m.economictimes.com/markets/options/empowering-retail-investors-in-indias-fo-market-a-graphic-first-approach-to-intuitive-investing/articleshow/120481044.cms
-https://m.economictimes.com/markets/stocks/news/91-of-individual-fo-traders-lost-money-in-fy25-despite-sebi-curbs-study/articleshow/122302956.cms
-https://www.businesstimes.com.sg/companies-markets/jane-street-argue-retail-demand-drove-its-india-trades
-https://www.cnbc.com/2025/07/10/cnbcs-inside-india-newsletter-indias-options-market-faces-a-reality-check.html
-https://m.economictimes.com/markets/stocks/news/sebi-pushes-for-structural-reforms-in-derivatives-after-jane-street-fallout-report/articleshow/123089511.cms
-https://www.caalley.com/news-updates/indian-news/jane-street-seeks-sebi-nod-to-remove-trading-ban-after-depositing-rs-4-843-crore
-https://www.angelone.in/news/market-updates/algo-trading-now-makes-up-57-of-equity-cash-and-70-of-derivatives-trades-in-india
-https://medium.com/@gianetan/algorithmic-trading-in-the-indian-stock-market-a-retail-investors-perspective-91dc6a98bf41`
   },
   {
     id: '6',
