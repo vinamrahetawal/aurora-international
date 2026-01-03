@@ -77,7 +77,7 @@ export const insights: Insight[] = [
   {
     id: '1',
     title: 'The Startup Survival Code: Adaptability, Purpose, and Impact',
-    date: '2025-09-15',
+    date: '2025-12-15',
     author: 'Tanmay Gupta',
     tags: ['Startups', 'Strategy', 'Impact'],
     image: { id: 'insight-1', alt: 'A team collaborating in a startup environment' },
@@ -114,7 +114,7 @@ https://www.pwc.com/gx/en/news-room/press-releases/2024/pwc-2024-voice-of-consum
   {
     id: '2',
     title: 'Navigating the Fabric of Ethics: The Role of Ethical Supply Chains in Modern Business',
-    date: '2025-09-28',
+    date: '2025-12-19',
     author: 'Ketvi Jasrotia',
     tags: ['Sustainability', 'Business', 'ESG'],
     image: { id: 'insight-2', alt: 'Green leaves and technology interface' },
@@ -186,7 +186,7 @@ By committing to ethical supply chains today, you’re not just meeting consumer
   {
     id: '3',
     title: 'Why ESG is Now a Startup Necessity',
-    date: '2025-10-10',
+    date: '2025-12-23',
     author: 'Jinia Chatterjee',
     tags: ['ESG', 'Startups', 'Sustainability'],
     image: { id: 'insight-3', alt: 'Person working on a laptop in a cafe' },
@@ -220,7 +220,7 @@ Sustainability is no longer a ‘box to tick.’ It is a competitive edge and st
   {
     id: '4',
     title: 'India\'s AI Moment: From Free Internet to Free AI',
-    date: '2025-10-22',
+    date: '2025-12-28',
     author: 'Tanisshq Jain',
     tags: ['Gig Economy', 'India', 'Labor'],
     image: { id: 'insight-4', alt: 'Digital network connections' },
@@ -259,7 +259,7 @@ As India experiments with gig worker welfare laws, this research stresses the ne
   {
     id: '6',
     title: 'India\'s AI Moment: From Free Internet to Free AI',
-    date: '2025-10-12',
+    date: '2026-01-03',
     author: 'Abdal Lalit',
     tags: ['AI', 'India', 'Technology', 'Policy'],
     image: { id: 'insight-6', alt: 'Artificial intelligence and digital India visualization' },
